@@ -98,6 +98,7 @@ Now enter these values in .env file as shown in image,
 
 ---
 
+
 ## Step 5 — Configure the project
 
 3. Assuming your project folder is at c/Users/<YourWindowsUser>/Downloads/FASTapi-PACS-main/FASTapi-PACS-main. Where <YourWindowsUser> is the system username. Move the folder to wsl home directory using following command.
@@ -117,5 +118,31 @@ cd FASTapi-PACS-main
   <img src="https://github.com/zain18jan2000/MyJob/blob/main/move_project.PNG" alt="Centered Image" width="850"/>
 </p>
  
+---
+
+
+## Step 6 — Build Docker images and start application
+
+1. Make sure the docker window is active and then copy and paste the following command to setup monitoring services,
+
+```bash
+docker compose -f compose.yaml -f monitoring.yaml up --build -d
+```
+
+This will take sometimes. 
+
+2. Once all containers are started, Confirm if the containers are running on docker desktop.
+
+<p align="center">
+  <img src="https://github.com/zain18jan2000/MyJob/blob/main/setup%20containers.PNG" alt="Centered Image" width="850"/>
+</p>
+
+3. Now open a web browser on Windows and go to:
+
+```
+http://localhost:3010
+```
+
+4. Register and login.
 
 
