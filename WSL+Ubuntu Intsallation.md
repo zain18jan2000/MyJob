@@ -37,3 +37,22 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y git
 ```
 
+## Step 4 --
+1. Navigate to home directory using following command. Replace <username> with your username
+
+```bash
+cd /home/<username>
+```
+
+2. Download Project ZIP file and extract it into a folder.
+3. Assuming your project folder is at c/Users/<YourWindowsUser>/Downloads/FASTapi-PACS. Where <YourWindowsUser> is the system username. Move the folder to wsl home directory using following command.
+
+```bash
+mv /mnt/c/Users/<YourWindowsUsername>/Downloads/FASTapi-PACS ./
+```
+4. Now move to project folder using follwing command,
+
+```bash
+cd FASTapi-PACS
+```
+
