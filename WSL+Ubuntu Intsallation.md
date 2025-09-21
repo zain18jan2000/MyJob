@@ -21,4 +21,4 @@ wsl --install
 ---
 
 ## Step 2 — Install Docker Desktop and enable WSL integration
-1. Download **Docker Desktop for Windows** from Docker's website 
+1. Download **Docker Desktop for Windows** from [Docker's website](https://docs.docker.com/desktop/setup/install/windows-install/)
