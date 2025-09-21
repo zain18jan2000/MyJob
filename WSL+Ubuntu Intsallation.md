@@ -26,6 +26,8 @@ wsl --install
 3. After installation start **Docker Desktop** (from Start menu).
 4. Open Docker Desktop settings (click the gear icon) → **Resources** → **WSL Integration**. Make sure the Ubuntu distribution is checked/enabled so Docker uses WSL.
 
+<img src="[images/docker-wsl-settings.png](https://github.com/zain18jan2000/MyJob/blob/main/WSL%20Integragion.PNG)" alt="Docker Desktop WSL Settings" width="600"/>
+
 ---
 
 ## Step 3 — Open Ubuntu (WSL) and prepare tools
