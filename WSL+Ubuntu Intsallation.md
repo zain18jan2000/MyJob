@@ -24,10 +24,10 @@ wsl --install
 1. Download **Docker Desktop For Windows-x64_86** from [Docker's website](https://docs.docker.com/desktop/setup/install/windows-install/)
 2. Run the Docker Desktop installer. During install, allow it to use **WSL 2** if prompted (this is usually a checkbox in the installer).
 3. After installation start **Docker Desktop** (from Start menu).
-4. Open Docker Desktop settings (click the gear icon) → **Resources** → **WSL Integration**. Make sure the Ubuntu distribution is checked/enabled so Docker uses WSL.
+4. Open Docker Desktop settings (click the gear icon) → **Resources** → **WSL Integration**. Make sure the Ubuntu distribution is checked/enabled so Docker uses WSL (See the image).
 
 <p align="center">
-  <img src="https://github.com/zain18jan2000/MyJob/blob/main/WSL%20Integragion.PNG" alt="Centered Image" width="70vh"/>
+  <img src="https://github.com/zain18jan2000/MyJob/blob/main/WSL%20Integragion.PNG" alt="Centered Image" width="750"/>
 </p>
 
 ---
