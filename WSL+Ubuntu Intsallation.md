@@ -1,5 +1,5 @@
 
-# PACS Project — Step-by-step Setup Guide (Windows → WSL2 → Docker)
+# Step-by-step Setup Guide (Windows → WSL2 → Docker)
 
 ## Before you begin — Requirements
 - A Windows PC with **Administrator** rights (you will need them for installations).
@@ -21,4 +21,19 @@ wsl --install
 ---
 
 ## Step 2 — Install Docker Desktop and enable WSL integration
-1. Download **Docker Desktop for Windows** from [Docker's website](https://docs.docker.com/desktop/setup/install/windows-install/)
+1. Download **Docker Desktop For Windows-x64_86** from [Docker's website](https://docs.docker.com/desktop/setup/install/windows-install/)
+2. Run the Docker Desktop installer. During install, allow it to use **WSL 2** if prompted (this is usually a checkbox in the installer).
+3. After installation start **Docker Desktop** (from Start menu).
+4. Open Docker Desktop settings (click the gear icon) → **Resources** → **WSL Integration**. Make sure the Ubuntu distribution is checked/enabled so Docker uses WSL.
+
+---
+
+## Step 3 — Open Ubuntu (WSL) and prepare tools
+1. Open **Ubuntu** from the Start menu (this runs inside WSL).
+2. Update packages and install `git` using the following command,
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y git
+```
+
