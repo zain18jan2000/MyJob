@@ -59,7 +59,7 @@ cd /home/<username>
 
 ## Step 4 — Download ZIP file and Configure the project (.env)
 1. Download the project zip file and extract it.
-3. Move to the project folder and rename **.env.example** file to **.env**
+3. Inside project folder and rename **.env.example** file to **.env**
 
 <p align="center">
   <img src="https://github.com/zain18jan2000/MyJob/blob/main/rename%20.env.PNG" alt="Centered Image" width="850"/>
