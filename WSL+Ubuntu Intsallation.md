@@ -30,6 +30,7 @@ wsl --install
   <img src="https://github.com/zain18jan2000/MyJob/blob/main/WSL%20Integragion.PNG" alt="Centered Image" width="750"/>
 </p>
 
+
 ---
 
 ## Step 3 — Open Ubuntu (WSL) and prepare tools
@@ -47,6 +48,9 @@ sudo apt install -y git
 ```bash
 cd /home/<username>
 ```
+<p align="center">
+  <img src="https://github.com/zain18jan2000/MyJob/blob/main/Navigate%20to%20home.PNG" alt="Centered Image" width="750"/>
+</p>
 
 2. Download Project ZIP file and extract it into a folder.
 3. Assuming your project folder is at c/Users/<YourWindowsUser>/Downloads/FASTapi-PACS. Where <YourWindowsUser> is the system username. Move the folder to wsl home directory using following command.
@@ -54,6 +58,7 @@ cd /home/<username>
 ```bash
 mv /mnt/c/Users/<YourWindowsUsername>/Downloads/FASTapi-PACS ./
 ```
+
 4. Now move to project folder using follwing command,
 
 ```bash
