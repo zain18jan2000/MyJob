@@ -8,8 +8,11 @@
 ---
 
 ## Step 1 — Install WSL (Windows Subsystem for Linux) and Ubuntu
-1. Open **Start → Windows Terminal** (or PowerShell). Right-click and **Run as administrator**.
-2. Copy and paste this single command and press Enter:
+1. Click **Start → Command Prompt** (or PowerShell). Right-click and **Run as administrator**.
+
+⚠️ This step is important. If you don’t run as Administrator, the installation will fail.
+
+2. In the Command Prompt/Powershell. Copy and paste this single command and press Enter:
 
 ```cmd
 wsl --install
@@ -17,6 +20,16 @@ wsl --install
 
 3. When the command finishes, **restart your computer** if prompted.
 4. After restart, open **Ubuntu** from the Start menu. On first run it will ask you to create a **Linux username and password** — remember them.
+Once done, you will see prompt like this
+
+```
+user@PCNAME:~$
+```
+
+## Troubleshooting
+If Ubuntu not showing in Start menu after wsl --install.
+**Solution:** open Microsoft Store → search for “Ubuntu” → Install.
+
 
 ---
 
@@ -32,14 +45,8 @@ wsl --install
 
 ---
 
-## Step 3 — Open Ubuntu (WSL) and prepare tools
-1. Open **Ubuntu** from the Start menu or run the following command on cmd.
-
-```bash
-wsl
-```
-
-3. Once ubuntu is started inside wsl, update packages using the following command,
+## Step 3 — Update and install basic tools
+1. In **Ubuntu** terminal, run:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
