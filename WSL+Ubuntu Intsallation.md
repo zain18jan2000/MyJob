@@ -134,7 +134,7 @@ This will take sometimes.
 2. Once all containers are started, Confirm if the containers are running on docker desktop.
 
 <p align="center">
-  <img src="https://github.com/zain18jan2000/MyJob/blob/main/setup%20containers.PNG" alt="Centered Image" width="850"/>
+  <img src="https://github.com/zain18jan2000/MyJob/blob/main/Containers_tab.PNG" alt="Centered Image" width="850"/>
 </p>
 
 3. Now open a web browser on Windows and go to:
